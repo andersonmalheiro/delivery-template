@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Delivery</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto+Sans+HK&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/9d999b38a7.js"></script>
+    <link
+      href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container flex-row">
+      <div class="main flex-column">
+        <!-- Topbar -->
+        <div class="topbar">
+          <a href="#">
+            <i class="fas fa-bars text-black"></i>
+          </a>
+          <h1 class="topbar-title">Delivery</h1>
+          <div class="custom-input">
+            <i class="icon ion-md-search input-icon"></i>
+            <input
+              type="text"
+              name="search"
+              id="search"
+              class="search"
+              placeholder="Search"
+            />
+          </div>
+        </div>
+        <!-- ./Topbar -->
+
+        <!-- Promotions -->
+        <div style="margin: 0 1rem;">
+          <div class="promotion-card"></div>
+        </div>
+        <!-- ./Promotions -->
+
+        <!-- Categories -->
+        <div style="margin: 2rem 1rem;">
+          <div class="flex-row space-between">
+            <span style="font-size: 1.5em; font-weight: bold">Restaurants</span>
+            <div class="custom-select">
+              <i
+                class="icon ion-md-time text-white"
+                style="margin-right: .5rem"
+              ></i>
+              <span style="font-size: 14px">Delivery: Now</span>
+              <i
+                class="icon ion-ios-arrow-down text-white"
+                style="margin-left: 1rem"
+              ></i>
+            </div>
+          </div>
+
+          <div class="flex-row" style="margin: 2rem 0">
+            <div class="category-card selected">
+              <div class="card-icon">
+                <i class="icon ion-md-pizza text-black"></i>
+              </div>
+              <span class="category-name">Pizza</span>
+            </div>
+            <div class="category-card">
+              <div class="card-icon">
+                <i class="icon ion-md-cafe text-black"></i>
+              </div>
+              <span class="category-name">Café</span>
+            </div>
+            <div class="category-card">
+              <div class="card-icon">
+                <i class="icon ion-md-basket text-black"></i>
+              </div>
+              <span class="category-name">Pizza</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cart"></div>
+    </div>
+  </body>
+</html>
